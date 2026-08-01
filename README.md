@@ -1,5 +1,9 @@
 # Gerber Renamer
 
+
+The rename_v1_simple.py is the 1st edition created to be used in command line.
+The rename.py and the gui was written using Claude AI.
+
 A modern GUI tool that renames KiCad Gerber export files to the standard extensions expected by most PCB manufacturers.
 
 | KiCad layer name | Standard extension |
