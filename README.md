@@ -21,15 +21,6 @@ Grab the latest **GerberRenamer.exe** from the [Releases](../../releases/latest)
 
 ---
 
-## Run from source
-
-**Requirements:** Python 3.10+
-
-```bash
-pip install -r requirements.txt
-python gui_dragdrop.py
-```
-
 ### Dependencies
 - [customtkinter](https://github.com/TomSchimansky/CustomTkinter) — modern Material-style UI
 - [tkinterdnd2](https://github.com/pmgagne/tkinterdnd2) — drag & drop support
@@ -39,18 +30,14 @@ python gui_dragdrop.py
 ## Features
 
 - **Drag & drop** a Gerber folder directly onto the drop zone
-- **Browse** opens the native Windows folder picker (shows files inside each folder)
 - **Preview** — see exactly which files will be renamed before committing
 - **Rename files** — renames in one click; preview turns green on success
-- **Create ZIP** — packages all files in the folder into a ready-to-send archive (appears after rename)
-- **Open folder** — opens the folder in Explorer
+- **Create ZIP**
 - **Dark / Light** theme toggle
 
 ---
 
 ## Build executable
-
-```bash
 pip install pyinstaller
 pyinstaller gui_dragdrop.spec
 ```
