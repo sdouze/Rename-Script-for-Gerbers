@@ -55,8 +55,7 @@ The standalone `.exe` will be in `dist/`.
 ```bash
 python rename.py <path/to/gerber/folder>
 ```
-##
-AI Disclosure
+## AI Disclosure
 
-The rename script was developed with Claude AI assistance. The GUI version were vibe coded.
+The rename script was developed with **Claude AI** assistance. The GUI version was **vibe coded**.
 The code was reviewed , tested and adapted by the repository creator.
